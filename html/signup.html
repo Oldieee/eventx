@@ -17,12 +17,12 @@
     <div class="container">
       <div class="form-box">
         <h2>Sign up</h2>
-        <form action="formhandler.inc.php" method="post" class="">
+        <form action="process-signup.php" method="POST" class="" novalidate>
           <div class="input-box">
             <input
               type="text"
-              name="fname"
-              id="fname"
+              name="first_name"
+              id="first_name"
               autocomplete="given-name"
               required
             />
@@ -32,12 +32,12 @@
           <div class="input-box">
             <input
               type="text"
-              name="name"
-              id="name"
+              name="last_name"
+              id="last_name"
               autocomplete="family-name"
               required
             />
-            <label for="fname">Last name</label>
+            <label for="first_name">Last name</label>
           </div>
 
           <div class="input-box">
