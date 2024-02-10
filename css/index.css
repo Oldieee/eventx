@@ -74,6 +74,7 @@ li {
   color: #fff !important;
   text-align: center;
   justify-content: center !important;
+  text-decoration: none;
 }
 .header .img-content h2 {
   font-weight: bold;
@@ -128,6 +129,10 @@ li {
   padding: 5px 10px;
   border: 1.5px groove var(--blue);
   border-radius: 10px;
+}
+.img-content #eveniment {
+  color: #033e63;
+  text-decoration: none;
 }
 .event {
   margin: 100px !important;
@@ -189,7 +194,4 @@ footer span {
 }
 footer input {
   margin: 10px;
-}
-body {
-  background: ;
 }
